@@ -1,10 +1,32 @@
 /* Rendu des éléments HTML5 en bloc */
 
- body,header,footer,section,aside,nav { 
- display: block;            /* Non nécessaire, valeur par défaut */ 
- border: 3px solid red;   /* Une bordure pour 'voir' comment les blocs s'organisent */ 
- margin-top: 20px;                 /* Aucune marge extérieure */   
- margin-bottom: 20px;
- padding-left: 50px;                /* Aucune marge intérieure */ 
- 
+ header { 
+ background-color: #2874a6;
+ padding : 20px 0px 20px 0px;
+ text-align : center;
+ font-size : 30px;
+ color : white;
+    }
+ footer { 
+ background-color : #2874a6;
+ padding : 20px 0px 20px 0px;
+ text-align : center;
+ font-size : 14px;
+ color : white;
  }
+ aside {
+ float :right;
+ width : 20%;
+ background-color : #ebf5fb;
+ padding : 20px 10px 20px 10px;
+ }
+ nav {
+ background-color : #2874a6;
+ padding : 10px 50px 10px 50px;
+ font-size : 14px;
+ color : white;
+ }
+ section {
+ padding : 30px 20px 30px 20px;
+ } 
+ 
