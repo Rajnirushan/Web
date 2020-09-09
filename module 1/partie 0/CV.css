@@ -1,3 +1,15 @@
- header { 
  
+  h1 { 
+    margin : 100px 0px 100px 200px;
+	color : #000000;
+	font-size : 2em;
  }
+  h5 {
+	margin : 20px;
+	color : grey;
+	font-size : 1em;
+  }	
+  #photo {
+	width : 75px;
+	vertical-align : middle;
+  }
