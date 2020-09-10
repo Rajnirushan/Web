@@ -1,15 +1,53 @@
- 
+ header { 
+ background-color: #2874a6;
+ padding : 20px 0px 20px 0px;
+ text-align : center;
+ font-size : 30px;
+ color : white;
+    }
+ footer { 
+ background-color : #2874a6;
+ padding : 20px 0px 20px 0px;
+ text-align : center;
+ font-size : 14px;
+ color : white;
+ }
+ aside {
+ float :right;
+ width : 20%;
+ background-color : #ebf5fb;
+ padding : 20px 10px 20px 10px;
+ }
+ nav {
+ background-color : #2874a6;
+ padding : 10px 50px 10px 50px;
+ font-size : 14px;
+ color : white;
+ }
+ section {
+ padding : 30px 20px 30px 20px;
+ } 
+
   h1 { 
     margin : 100px 0px 100px 200px;
 	color : #000000;
 	font-size : 2em;
  }
   h5 {
-	margin : 20px;
+	margin : 20px 0px 20px 0px;
 	color : grey;
 	font-size : 1em;
   }	
   #photo {
 	width : 75px;
 	vertical-align : middle;
+  }
+  .fond_gris {
+	  background-color : grey;
+  }
+  .gras {
+	  font-weight : bold;
+  }
+  #loisirs {
+	;
   }
