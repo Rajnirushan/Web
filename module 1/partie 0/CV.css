@@ -44,8 +44,7 @@
  }
   #photo {
 	width : 75px;
-	vertical-align :middle ;
-
+	vertical-align : baseline ;
   }
   .fond_gris {
 	  background-color : grey;
@@ -57,11 +56,4 @@
    #loisirs li {
 	display :  inline  ;	   
   }
-  
-  
-  
-  
-  
-  
-  
-  
+ 
